@@ -1,7 +1,7 @@
 
 {
   "name": "taleem-assets",
-  "version": "0.9.18",
+  "version": "0.9.19",
   "description": "A JavaScript asset management library for images, sprites, and sounds.",
 
   "type": "module",
