@@ -1,15 +1,15 @@
 {
-  "name": "taleem-canvas",
-  "version": "0.9.21",
+  "name": "taleem-assets",
+  "version": "0.9.22",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/taleem-canvas.js",
-      "default": "./dist/taleem-canvas.js",
-      "browser": "./dist/taleem-canvas.js"
+      "import": "./dist/taleem-assets.js",
+      "default": "./dist/taleem-assets.js",
+      "browser": "./dist/taleem-assets.js"
     }
   },
-  "browser": "./dist/taleem-canvas.js",
+  "browser": "./dist/taleem-assets.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
