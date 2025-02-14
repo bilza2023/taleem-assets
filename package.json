@@ -1,13 +1,15 @@
+
 {
   "name": "taleem-assets",
-  "version": "0.9.15",
+  "version": "0.9.18",
   "description": "A JavaScript asset management library for images, sprites, and sounds.",
-  "main": "dist/taleem-assets.umd.js",
-  "module": "dist/taleem-assets.es.js",
-  "types": "dist/taleem-assets.d.ts",
+
+  "type": "module",
+
+  "module": "dist/taleem-assets.js",
+
   "exports": {
-    "import": "./dist/taleem-assets.es.js",
-    "require": "./dist/taleem-assets.umd.js"
+    "import": "./dist/taleem-assets.js"
   },
   "scripts": {
     "dev": "vite",
