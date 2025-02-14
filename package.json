@@ -1,23 +1,20 @@
-
 {
-  "name": "taleem-assets",
-  "version": "0.9.19",
-  "description": "A JavaScript asset management library for images, sprites, and sounds.",
-
+  "name": "taleem-canvas",
+  "version": "0.9.21",
   "type": "module",
-
-  "module": "dist/taleem-assets.js",
-
   "exports": {
-    "import": "./dist/taleem-assets.js"
+    ".": {
+      "import": "./dist/taleem-canvas.js",
+      "default": "./dist/taleem-canvas.js",
+      "browser": "./dist/taleem-canvas.js"
+    }
   },
+  "browser": "./dist/taleem-canvas.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "howler": "^2.2.4"
+    "preview": "vite preview",
+    "start": "node index.js"
   },
   "devDependencies": {
     "vite": "^6.1.0"
